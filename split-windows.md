@@ -10,6 +10,9 @@ In netrw, highlight the name of the file or directory and hit `v`.
 
 To navigate within buffers try `:vert sb BUFFER NUMBER/NAME`.
 
+Note on window width:
+  I like to keep my line length at 80 (though i'm considering 100).  What I typically do is start my terminal window at 160 width, then when I vertical split I do `Ctrl + w =` to set both windows to equal length(80 each).
+
 ## Some .vimrc changes to consider
 
 By default, the split opens to the left of the current window, which I dont find as intuitive. Adding the following to .vimrc will make it open to the right:
